@@ -8,6 +8,6 @@ def greeting
     last_name = gets.chomp
     last_name.capitalize!
 
-    puts "Hello, #{first_name } #{last_name}"
+    puts "Hello, #{first_name} #{last_name}"
 
 end
