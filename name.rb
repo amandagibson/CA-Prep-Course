@@ -10,4 +10,22 @@ def greeting
 
     puts "Hello, #{first_name} #{last_name}"
 
+end 
+
+def name_times_ten
+
+    puts "What is your name? "
+    firstname = gets.chomp
+    firstname.capitalize!
+
+10.times { print "#{firstname}" }
+
+    puts "What is your last name? "
+    lastname = gets.chomp
+    lastname.capitalize!
+
+    puts {"Hello, #{firstname}" + " #{lastname}!"}
+
+
 end
+
